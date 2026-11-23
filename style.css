@@ -1,11 +1,38 @@
-counte {
+.counter {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 80px;
+    border:2px solid #000;
+    background-color:#87CEFA;
+}
+.counter-display{
+    font-size: 50px;
+    text-align:center;
     
-}       
-counter-number js-min{}
-counter-colon{}
-counter-number js-sec{}
-button js-buttonbutton{}
-button js-buttonbutton{}
-buttonbuttonjs-start{}
-buttonbuttonjs-stop{}
-buttonbuttonjs-reset{}
+    
+}
+.counter-colon{
+    font-size: 50px;
+    
+}
+.button-group{
+    display:flex;
+    align-items:center;
+    margin-top:30px;
+}
+.button{
+    margin:0 5px;
+    padding:10px 20px;
+    font-size:20px;
+    border:0;
+    color:#fff;
+    background-color:#000;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover{
+    opacity:0.8;
+    transition:0.25s;
+}
