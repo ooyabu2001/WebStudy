@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple Counter2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="counter">
+ <!--数字の表示-->
+    <div class="counter-display">
+        <!--分の数字-->
+        <span class="counter-number js-min" >00</span>
+        <span class="counter-colon">:</span>
+    <!--秒の数字-->
+        <span class="counter-number js-sec" >00</span>
+    <!--操作ボタン-->
+        <button class="button js-button" type="button">-</button>
+        <button class="button js-button" type="button">+</button>
+        <button class="button" type="button"  id="js-start">Start</button>
+        <button class="button" type="button"  id="js-stop">Stop</button>
+        <button class="button" type="button"  id="js-reset">Reset</button>
+    </div>
+</div>
+<script  src="counter.js"></script>
+<script  src="reset.js"></script>
+
+</body>
+</html>
